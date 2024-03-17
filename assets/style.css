@@ -1,0 +1,22 @@
+body {
+    background: none !important;
+}
+
+/* index.css */
+#ui {
+    position: absolute;
+    /* Positionnement absolu par rapport au corps de la page */
+    top: 50%;
+    /* Déplacement vertical au milieu */
+    left: 50%;
+    /* Déplacement horizontal au milieu */
+    transform: translate(-50%, -50%);
+    /* Ajustement précis pour centrer exactement l'élément */
+    width: 50%;
+    /* Largeur du carré */
+    height: 50%;
+    /* Hauteur du carré, identique à la largeur pour former un carré */
+    background-color: white;
+    /* Couleur de fond du carré, juste à titre d'exemple */
+    border-radius: 10px;
+}
